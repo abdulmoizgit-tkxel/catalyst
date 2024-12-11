@@ -2,8 +2,6 @@
 
 This Figma plugin is a quick proof of concept for generating a usable theme and styles for MUI from variables provided by a file that is built on the [MUI for Figma](https://mui.com/store/items/figma-react/) library.
 
-⚠️ This plugin currently only works for color palettes and does not support other styles yet (typography, effects, etc.).
-
 ## Setup Variable Collections
 
 To produces a usable result, the varialbe collections need to be restructured a bit:
@@ -19,7 +17,7 @@ The MUI library in Figma contains different colors for elevation levels, but tho
 
 ## Run the Plugin
 
-1. run `npm setup`
+1. run `npm run setup`
 2. Go to Figma and open a file
 3. From the _Figma_ menu in the top left, select **Plugins** -> **Development** -> **Import plugin from manifest**
 4. Select the `manifest.json` from this project
