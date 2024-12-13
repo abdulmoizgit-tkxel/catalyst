@@ -50,6 +50,10 @@ import getImageListItemBar from "../getImageList";
 import getIcons from "../getIcons";
 import getPopover from "../getPopover";
 import getTreeItem from "../getTreeItem";
+import getFloatingActionButton from "../getFloatingActionButton";
+import getTimelineDot from "../getTimelineDot";
+import getTimelineItem from "../getTimelineItem";
+import getTimeline from "../getTimeline";
 
 export default function getThemeJson() {
   const colors = getColors();
@@ -58,52 +62,6 @@ export default function getThemeJson() {
   const spacing = getSpacing();
   const shape = getShapes();
   const colorSchemes = getAllModesColorSchemes();
-  const buttons = getButtons();
-  const buttonGroups = getButtonGroups();
-  const chips = getChips();
-  const radio = getRadio();
-  const checkbox = getCheckbox();
-  const inputLabels = getInputLabels();
-  const formLabels = getFormLabels();
-  const formHelperText = getFormHelperText();
-  const tooltip = getTooltip();
-  const table = getTable();
-  const bottomNavigationAction = getBottomNavigationAction();
-  const dialog = getDialog();
-  const list = getList();
-  const speedDial = getSpeedDial();
-  const link = getLink();
-  const menu = getMenu();
-  const paper = getPaper();
-  const pagination = getPagination();
-  const paginationItem = getPaginationItem();
-  const alert = getAlert();
-  const divider = getDivider();
-  const textfield = getTextfield();
-  const textFieldLabels = getTextFieldLabels();
-  const toolbar = getToolbar();
-  const iconButton = getIconButton();
-  const appbar = getAppBar();
-  const avatar = getAvatar();
-  const tabs = getTabs();
-  const skeleton = getSkeleton();
-  const accordion = getAccordion();
-  const badge = getBadges();
-  const toggleButton = getToggleButton();
-  const toggleButtonGroup = getToggleButtonGroup();
-  const slider = getSlider();
-  const charts = getCharts();
-  const breadcrumbs = getBreadcrumbs();
-  const stepper = getStepper();
-  const step = getStep();
-  const mobileStepper = getMobileStepper();
-  const snackbar = getSnackbar();
-  const rating = getRating();
-  const backdrop = getBackdrop();
-  const imageListItemBar = getImageListItemBar();
-  const icons = getIcons();
-  const popover = getPopover();
-  const treeItem = getTreeItem();
 
   const theme = {
     colorSchemes: colorSchemes,
@@ -113,52 +71,56 @@ export default function getThemeJson() {
     spacing,
     shape,
     components: {
-      ...buttons,
-      ...buttonGroups,
-      ...chips,
-      ...checkbox,
-      ...radio,
-      ...inputLabels,
-      ...formLabels,
-      ...formHelperText,
-      ...tooltip,
-      ...table,
-      ...bottomNavigationAction,
-      ...dialog,
-      ...list,
-      ...speedDial,
-      ...link,
-      ...menu,
-      ...paper,
-      ...pagination,
-      ...paginationItem,
-      ...alert,
-      ...divider,
-      ...textfield,
-      ...textFieldLabels,
-      ...toolbar,
-      ...iconButton,
-      ...appbar,
-      ...avatar,
-      ...tabs,
-      ...skeleton,
-      ...accordion,
-      ...badge,
-      ...toggleButton,
-      ...toggleButtonGroup,
-      ...slider,
-      ...charts,
-      ...breadcrumbs,
-      ...stepper,
-      ...step,
-      ...mobileStepper,
-      ...snackbar,
-      ...rating,
-      ...backdrop,
-      ...imageListItemBar,
-      ...icons,
-      ...popover,
-      ...treeItem,
+      ...getButtons(),
+      ...getButtonGroups(),
+      ...getChips(),
+      ...getRadio(),
+      ...getCheckbox(),
+      ...getInputLabels(),
+      ...getFormLabels(),
+      ...getFormHelperText(),
+      ...getTooltip(),
+      ...getTable(),
+      ...getBottomNavigationAction(),
+      ...getDialog(),
+      ...getList(),
+      ...getSpeedDial(),
+      ...getLink(),
+      ...getMenu(),
+      ...getPaper(),
+      ...getPagination(),
+      ...getPaginationItem(),
+      ...getAlert(),
+      ...getDivider(),
+      ...getTextfield(),
+      ...getTextFieldLabels(),
+      ...getToolbar(),
+      ...getIconButton(),
+      ...getAppBar(),
+      ...getAvatar(),
+      ...getTabs(),
+      ...getSkeleton(),
+      ...getAccordion(),
+      ...getBadges(),
+      ...getToggleButton(),
+      ...getToggleButtonGroup(),
+      ...getSlider(),
+      ...getCharts(),
+      ...getBreadcrumbs(),
+      ...getStepper(),
+      ...getStep(),
+      ...getMobileStepper(),
+      ...getSnackbar(),
+      ...getRating(),
+      ...getBackdrop(),
+      ...getImageListItemBar(),
+      ...getIcons(),
+      ...getPopover(),
+      ...getTreeItem(),
+      ...getFloatingActionButton(),
+      ...getTimelineDot(),
+      ...getTimelineItem(),
+      ...getTimeline(),
     },
   };
 
