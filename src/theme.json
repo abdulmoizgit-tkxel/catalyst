@@ -11416,6 +11416,1724 @@
         }
       }
     },
+    "MuiSwitch": {
+      "styleOverrides": {
+        "root": {
+          "&.MuiSwitch-sizeMedium": {
+            "& .MuiSwitch-switchBase:not(.Mui-checked)": {
+              "&.MuiSwitch-colorDefault": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorPrimary": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&.Mui-disabled": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#f5f5f5",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                    "opacity": "1"
+                  }
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorError": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorWarning": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorInfo": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSuccess": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSecondary": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              }
+            },
+            "& .Mui-checked": {
+              "&.MuiSwitch-colorDefault": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#ffffff",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSecondary": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#9c27b0",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#9c27b0",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#9c27b0",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#9c27b0",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(156, 39, 176, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#9c27b0",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#9c27b0",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(156, 39, 176, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#9c27b0",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#9c27b0",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(156, 39, 176, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorError": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#d32f2f",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#d32f2f",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#d32f2f",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#d32f2f",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(211, 47, 47, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#d32f2f",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#d32f2f",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(211, 47, 47, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#d32f2f",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#d32f2f",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(211, 47, 47, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorWarning": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#ef6c00",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#ef6c00",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ef6c00",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ef6c00",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(239, 108, 0, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ef6c00",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ef6c00",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(239, 108, 0, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ef6c00",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ef6c00",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(239, 108, 0, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorInfo": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#0288d1",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#0288d1",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#0288d1",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#0288d1",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(2, 136, 209, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#0288d1",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#0288d1",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(2, 136, 209, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#0288d1",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#0288d1",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(2, 136, 209, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSuccess": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#2e7d32",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#2e7d32",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#2e7d32",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#2e7d32",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(46, 125, 50, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#2e7d32",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#2e7d32",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(46, 125, 50, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#2e7d32",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#2e7d32",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(46, 125, 50, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorPrimary": {
+                "&.Mui-disabled": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#f5f5f5",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                    "opacity": "1"
+                  }
+                },
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#ff8a65",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "20px",
+                  "height": "20px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#ff8a65",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ff8a65",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ff8a65",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(25, 118, 210, 0.04)",
+                  "paddingBottom": "9px",
+                  "paddingLeft": "9px",
+                  "paddingRight": "9px",
+                  "paddingTop": "9px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ff8a65",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ff8a65",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(25, 118, 210, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ff8a65",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "20px",
+                    "height": "20px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ff8a65",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(25, 118, 210, 0.3)"
+                }
+              }
+            }
+          },
+          "&.MuiSwitch-sizeSmall": {
+            "& .MuiSwitch-switchBase:not(.Mui-checked)": {
+              "&.MuiSwitch-colorDefault": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorPrimary": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&.Mui-disabled": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#f5f5f5",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                    "opacity": "1"
+                  }
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorError": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorWarning": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorInfo": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSuccess": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSecondary": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#fafafa",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#fafafa",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              }
+            },
+            "& .Mui-checked": {
+              "&.MuiSwitch-colorDefault": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#ffffff",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#000000",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ffffff",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#000000",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(255, 255, 255, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSecondary": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#9c27b0",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#9c27b0",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#9c27b0",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#9c27b0",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(156, 39, 176, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#9c27b0",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#9c27b0",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(156, 39, 176, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#9c27b0",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#9c27b0",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(156, 39, 176, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorError": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#d32f2f",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#d32f2f",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#d32f2f",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#d32f2f",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(211, 47, 47, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#d32f2f",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#d32f2f",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(211, 47, 47, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#d32f2f",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#d32f2f",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(211, 47, 47, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorWarning": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#ef6c00",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#ef6c00",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ef6c00",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ef6c00",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(239, 108, 0, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ef6c00",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ef6c00",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(239, 108, 0, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ef6c00",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ef6c00",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(239, 108, 0, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorInfo": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#0288d1",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#0288d1",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#0288d1",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#0288d1",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(2, 136, 209, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#0288d1",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#0288d1",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(2, 136, 209, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#0288d1",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#0288d1",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(2, 136, 209, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorSuccess": {
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#2e7d32",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#2e7d32",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#2e7d32",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#2e7d32",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(46, 125, 50, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#2e7d32",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#2e7d32",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(46, 125, 50, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#2e7d32",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#2e7d32",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(46, 125, 50, 0.3)"
+                }
+              },
+              "&.MuiSwitch-colorPrimary": {
+                "&.Mui-disabled": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#f5f5f5",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                    "opacity": "1"
+                  }
+                },
+                "& .MuiSwitch-thumb": {
+                  "backgroundColor": "#ff8a65",
+                  "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                  "width": "16px",
+                  "height": "16px"
+                },
+                "& .MuiSwitch-track": {
+                  "backgroundColor": "#ff8a65",
+                  "opacity": "1"
+                },
+                "&:hover": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ff8a65",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ff8a65",
+                    "opacity": "1"
+                  },
+                  "backgroundColor": "rgba(25, 118, 210, 0.04)",
+                  "paddingBottom": "4px",
+                  "paddingLeft": "4px",
+                  "paddingRight": "4px",
+                  "paddingTop": "4px",
+                  "borderTopLeftRadius": "100px",
+                  "borderTopRightRadius": "100px",
+                  "borderBottomLeftRadius": "100px",
+                  "borderBottomRightRadius": "100px"
+                },
+                "&:focus": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ff8a65",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ff8a65",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(25, 118, 210, 0.3)"
+                },
+                "&:active": {
+                  "& .MuiSwitch-thumb": {
+                    "backgroundColor": "#ff8a65",
+                    "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12)",
+                    "width": "16px",
+                    "height": "16px"
+                  },
+                  "& .MuiSwitch-track": {
+                    "backgroundColor": "#ff8a65",
+                    "opacity": "1"
+                  },
+                  "color": "rgba(25, 118, 210, 0.3)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "MuiTooltip": {
       "styleOverrides": {
         ".MuiTooltip-tooltip": {

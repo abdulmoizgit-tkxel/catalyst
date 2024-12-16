@@ -17,8 +17,7 @@ interface AvatarConfig {
 }
 
 export default function getAvatar(): AvatarConfig {
-  
-  console.log("Fetching avatar...");
+  console.log("Fetching Avatar...");
 
   // Find the Avatar page in Figma
   const avatarPage = figma.root.children.find(
