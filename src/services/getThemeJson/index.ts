@@ -12,6 +12,7 @@ import getInputLabels from "../getInputLabels";
 import getCheckbox from "../getCheckbox";
 import getFormLabels from "../getFormLabels";
 import getFormHelperText from "../getFormHelperText";
+import getSwitch from "../getSwitch";
 import getTooltip from "../getTooltip";
 import getTextfield from "../getTextfield";
 import getTable from "../getTable";
@@ -79,6 +80,7 @@ export default function getThemeJson() {
       ...getInputLabels(),
       ...getFormLabels(),
       ...getFormHelperText(),
+      ...getSwitch(),
       ...getTooltip(),
       ...getTable(),
       ...getBottomNavigationAction(),
