@@ -1,9 +1,11 @@
-import { generateBoxShadowCSS, rgbToHex } from "../../utils";
+import { generateBoxShadowCSS, rgbToHex, styles } from "../../utils";
 
 interface TooltipConfig {
-  MuiTooltip: {
+  MuiPopper: {
     styleOverrides: {
-      [key: string]: any;
+      root: {
+        [key: string]: any;
+      };
     };
   };
 }
@@ -12,8 +14,10 @@ export default function getTooltips() {
   console.log("Fetching Tooltips...");
 
   const tooltipsConfig: TooltipConfig = {
-    MuiTooltip: {
-      styleOverrides: {},
+    MuiPopper: {
+      styleOverrides: {
+        root: {},
+      },
     },
   };
 
@@ -40,36 +44,24 @@ export default function getTooltips() {
             (tooltipVariant.children as readonly SceneNode[]).forEach(
               (variantChild) => {
                 if (variantChild && variantChild.name === "Tooltip") {
-                  const verticalPadding =
-                    (variantChild as FrameNode).verticalPadding || 0;
-                  const horizontalPadding =
-                    (variantChild as FrameNode).horizontalPadding || 0;
-                  const borderRadius =
-                    (variantChild as FrameNode).cornerRadius || 0;
-                  const fills = (variantChild as FrameNode).fills || [];
-                  const opacity = (variantChild as FrameNode).opacity || 1;
-
-                  let background = "";
-
-                  // Extract background color from fills
-                  if (Array.isArray(fills) && fills.length > 0) {
-                    background = rgbToHex({
-                      ...fills[0].color,
-                      a: fills[0].opacity,
-                    });
-                  }
-
                   // Define the base CSS with background, padding, borderRadius, and opacity
                   const baseCss = {
-                    padding: `${verticalPadding}px ${horizontalPadding}px`,
-                    background,
-                    borderRadius: `${String(borderRadius)}px`,
-                    opacity,
+                    ...styles.getPaddingCss(variantChild),
+                    ...styles.getColorOrBackgroundCss(
+                      variantChild,
+                      "backgroundColor"
+                    ),
+                    ...styles.getBorderRadiusCss(variantChild),
+                    ...Object.fromEntries(
+                      Object.entries(styles.getOpacityCss(variantChild)).map(
+                        ([key, value]) => [key, `${value} !important`]
+                      )
+                    ),
                   };
 
                   // Apply the base CSS to the universal `.MuiTooltip-tooltip` class
-                  tooltipsConfig.MuiTooltip.styleOverrides[
-                    ".MuiTooltip-tooltip"
+                  tooltipsConfig.MuiPopper.styleOverrides.root[
+                    "& .MuiTooltip-tooltip"
                   ] = {
                     ...baseCss,
                   };

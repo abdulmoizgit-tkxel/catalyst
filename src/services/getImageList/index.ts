@@ -17,7 +17,7 @@ interface ImageListItemBarConfig {
 }
 
 export default function getImageListItemBar(): ImageListItemBarConfig {
-  console.log("Fetching imageListItemBar...");
+  console.log("Fetching Image List Item Bar ...");
 
   // Find the ImageListItemBar page in Figma
   const imageListItemBarPage = figma.root.children.find(
@@ -76,7 +76,6 @@ export default function getImageListItemBar(): ImageListItemBarConfig {
       }
 
       if (titleWrapNode && "children" in titleWrapNode) {
-
         // Find the Title and Subtitle nodes
         const titleNode = titleWrapNode.children.find(
           (node) => node.name.trim() === "{Title}" && node.type === "TEXT"
@@ -87,7 +86,7 @@ export default function getImageListItemBar(): ImageListItemBarConfig {
 
         if (!titleNode) {
           console.warn("Title node not found.");
-        } 
+        }
 
         if (!subtitleNode) {
           console.warn("Subtitle node not found.");

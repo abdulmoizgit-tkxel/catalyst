@@ -13134,13 +13134,21 @@
         }
       }
     },
-    "MuiTooltip": {
+    "MuiPopper": {
       "styleOverrides": {
-        ".MuiTooltip-tooltip": {
-          "padding": "4px 8px",
-          "background": "rgba(97, 97, 97, 0.9)",
-          "borderRadius": "4px",
-          "opacity": 1
+        "root": {
+          "& .MuiTooltip-tooltip": {
+            "paddingBottom": "4px",
+            "paddingLeft": "8px",
+            "paddingRight": "8px",
+            "paddingTop": "4px",
+            "backgroundColor": "rgba(97, 97, 97, 0.9)",
+            "borderTopLeftRadius": "4px",
+            "borderTopRightRadius": "4px",
+            "borderBottomLeftRadius": "4px",
+            "borderBottomRightRadius": "4px",
+            "opacity": "1 !important"
+          }
         }
       }
     },
@@ -22574,6 +22582,195 @@
             "fontFamily": "Roboto",
             "paddingLeft": "16px",
             "paddingRight": "16px"
+          }
+        }
+      }
+    },
+    "MuiDataGrid": {
+      "styleOverrides": {
+        "root": {
+          "& .MuiDataGrid-row": {
+            "& .MuiDataGrid-cell": {
+              "paddingLeft": "10px",
+              "paddingRight": "10px",
+              "borderTop": "1px solid rgba(0, 0, 0, 0.12)"
+            },
+            "&:hover": {
+              "& .MuiDataGrid-cell": {
+                "paddingLeft": "10px",
+                "paddingRight": "10px",
+                "borderTop": "1px solid rgba(0, 0, 0, 0.12)"
+              },
+              "backgroundColor": "rgba(0, 0, 0, 0.04)"
+            },
+            "&.Mui-selected": {
+              "& .MuiDataGrid-cell": {
+                "paddingLeft": "10px",
+                "paddingRight": "10px",
+                "borderTop": "1px solid rgba(0, 0, 0, 0.12)"
+              },
+              "backgroundColor": "rgba(25, 118, 210, 0.04)"
+            }
+          },
+          "& .MuiDataGrid-columnHeader": {
+            "paddingLeft": "10px",
+            "paddingRight": "10px",
+            "borderBottom": "1px solid rgba(0, 0, 0, 0.12) !important",
+            "& .MuiDataGrid-columnHeaderTitle": {
+              "letterSpacing": "0.17px",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "fontFamily": "Roboto"
+            },
+            "& .MuiDataGrid-columnHeaderTitleContainer": {
+              "gap": "0px"
+            },
+            "&:hover": {
+              "paddingLeft": "10px",
+              "paddingRight": "10px",
+              "borderBottom": "1px solid rgba(0, 0, 0, 0.12) !important",
+              "& .MuiSvgIcon-root": {
+                "color": "rgba(0, 0, 0, 0.56)"
+              },
+              "& .MuiDataGrid-columnHeaderTitle": {
+                "letterSpacing": "0.17px",
+                "fontSize": "14px",
+                "fontWeight": "500",
+                "fontFamily": "Roboto"
+              },
+              "& .MuiDataGrid-columnHeaderTitleContainer": {
+                "gap": "0px"
+              },
+              "& .MuiDataGrid-columnSeparator": {
+                "& .MuiSvgIcon-root": {
+                  "color": "#e0e0e0"
+                }
+              },
+              "& .MuiDataGrid-menuIcon": {
+                "& .MuiSvgIcon-root": {
+                  "color": "rgba(0, 0, 0, 0.56)"
+                }
+              }
+            }
+          },
+          "&.MuiDataGrid-root--densityComfortable": {
+            "& .MuiDataGrid-columnHeader": {
+              "&.MuiDataGrid-columnHeaderCheckbox": {
+                "height": "72px !important"
+              },
+              "height": "72px !important"
+            },
+            "& .MuiDataGrid-row": {
+              "&:has(.MuiDataGrid-cellCheckbox)": {
+                "height": "67px !important",
+                "minHeight": "67px !important",
+                "maxHeight": "67px !important"
+              },
+              "height": "67px !important",
+              "minHeight": "67px !important",
+              "maxHeight": "67px !important"
+            }
+          },
+          "&.MuiDataGrid-root--densityCompact": {
+            "& .MuiDataGrid-columnHeader": {
+              "&.MuiDataGrid-columnHeaderCheckbox": {
+                "height": "39px !important"
+              },
+              "height": "39px !important"
+            },
+            "& .MuiDataGrid-row": {
+              "&:has(.MuiDataGrid-cellCheckbox)": {
+                "height": "36px !important",
+                "minHeight": "36px !important",
+                "maxHeight": "36px !important"
+              },
+              "height": "36px !important",
+              "minHeight": "36px !important",
+              "maxHeight": "36px !important"
+            }
+          },
+          "&.MuiDataGrid-root--densityStandard": {
+            "& .MuiDataGrid-columnHeader": {
+              "&.MuiDataGrid-columnHeaderCheckbox": {
+                "height": "56px !important"
+              },
+              "height": "56px !important"
+            },
+            "& .MuiDataGrid-row": {
+              "&:has(.MuiDataGrid-cellCheckbox)": {
+                "height": "52px !important",
+                "minHeight": "52px !important",
+                "maxHeight": "52px !important"
+              },
+              "height": "52px !important",
+              "minHeight": "52px !important",
+              "maxHeight": "52px !important"
+            }
+          },
+          "& .MuiDataGrid-toolbarContainer": {
+            "gap": "8px",
+            "paddingLeft": "4px",
+            "paddingTop": "4px",
+            "& .MuiButtonBase-root": {
+              "fontFamily": "Roboto",
+              "fontSize": "13px",
+              "letterSpacing": "0.46px",
+              "fontWeight": "500",
+              "& .MuiButton-icon": {
+                "marginRight": "8px",
+                "& .MuiSvgIcon-root": {
+                  "color": "#ff8a65",
+                  "width": "16px",
+                  "height": "24px"
+                }
+              }
+            }
+          },
+          "& .MuiDataGrid-groupingCriteriaCell": {
+            "& .MuiDataGrid-groupingCriteriaCellToggle": {
+              "marginRight": "16px"
+            },
+            "& .MuiButtonBase-root": {
+              "paddingBottom": "5px",
+              "paddingLeft": "5px",
+              "paddingRight": "5px",
+              "paddingTop": "5px",
+              "& .MuiSvgIcon-root": {
+                "width": "20px",
+                "height": "20px",
+                "color": "rgba(0, 0, 0, 0.56)"
+              }
+            },
+            "span": {
+              "fontFamily": "Roboto",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "150%",
+              "letterSpacing": "0.15px",
+              "color": "rgba(0, 0, 0, 0.87)"
+            }
+          }
+        }
+      }
+    },
+    "MuiCard": {
+      "styleOverrides": {
+        "root": {
+          "&.MuiPaper-root": {
+            "&.MuiPaper-elevation": {
+              "borderTopLeftRadius": "4px !important",
+              "borderTopRightRadius": "4px !important",
+              "borderBottomLeftRadius": "4px !important",
+              "borderBottomRightRadius": "4px !important",
+              "boxShadow": "0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12) !important",
+              "background": "#ffffff !important",
+              "& .MuiCardContent-root": {
+                "paddingBottom": "16px",
+                "paddingLeft": "16px",
+                "paddingRight": "16px",
+                "paddingTop": "16px"
+              }
+            }
           }
         }
       }

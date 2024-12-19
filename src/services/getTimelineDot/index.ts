@@ -33,8 +33,6 @@ export default function getTimelineDot() {
         if (timeLineDotVariant.type === "COMPONENT") {
           const { Variant } = timeLineDotVariant.variantProperties || {};
 
-          console.log(Variant);
-
           if (Variant) {
             const variantKey =
               Variant === "Filled*"
