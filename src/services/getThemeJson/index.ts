@@ -55,6 +55,8 @@ import getFloatingActionButton from "../getFloatingActionButton";
 import getTimelineDot from "../getTimelineDot";
 import getTimelineItem from "../getTimelineItem";
 import getTimeline from "../getTimeline";
+import { getDataGrid } from "../getDataGrid";
+import getCard from "../getCard";
 
 export default function getThemeJson() {
   const colors = getColors();
@@ -123,6 +125,8 @@ export default function getThemeJson() {
       ...getTimelineDot(),
       ...getTimelineItem(),
       ...getTimeline(),
+      ...getDataGrid(),
+      ...getCard(),
     },
   };
 
